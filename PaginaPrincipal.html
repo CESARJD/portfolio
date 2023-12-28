@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Noto+Sans:wght@300;400;500&family=Noto+Serif+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header con vinculos de navegacion a los distintos apartados. Se desplazará conforme se haga Scroll -->
+    <header>
+        <nav>
+            <a href="#Home">Home</a>
+            <!-- Se llaman igual porque estan en el mismo bloque y el bloque no puede tener dos id´s -->
+            <a href="#Informacion personal">Sobre mi</a>
+            <a href="#Informacion personal">Competencias</a>
+            <a href="#Servicios">Servicios</a>
+            <a href="#Galeria">Galeria</a>
+            <a href="#Contacto">Contacto</a>
+        </nav>
+    </header>
+    <!-- Home. Seccion de portada con informacion basica. Nombre y ocupacion -->
+    <div class="b-home" id="Home">
+        <div class="b-grid5050">
+            <div class="b-Title">
+                <h1>César<br>Jiménez Diez</h1>
+                <h3>Desarrollador fullstack</h3>
+            </div>
+            <div>
+                <img class="b-grid5050__img" src="../Imagenes/coding-1853305_640.jpg" alt="Imagen de un portatil con una aplicacion abierta y codigo css escrito">
+            </div>
+        </div>
+    </div>
+    <!-- Seccion info (no vinculada) contiene las "subsecciones":
+    Sobre mi. con una breve descripcion.
+    Competencias, con iconos minimalistas de los distintos programas que manejo -->
+    <div class="b-info" id="Informacion personal">
+        <!-- Sobre mi -->
+        <div class="b-sobre_mi" >
+            <h2>Sobre mí</h2>
+            
+            <p> 
+                Descubre mi portfolio, soy César, un programador full-stack comprometido con la excelencia en el desarrollo de software.<br>
+                Con experiencia en el desarrollo web, estoy comprometido a brindar soluciones tecnológicas innovadoras. Mi enfoque versátil y creativo se refleja en cada proyecto que emprendo.<br>
+                Mi habilidad para crear aplicaciones robustas y atractivas se ha perfeccionado a lo largo de mi carrera. Desde el diseño frontend hasta la gestión de bases de datos en el backend, estoy preparado para abordar cualquier desafío que se presente.<br>        
+                La resolución eficiente de problemas y la entrega de productos de alta calidad son mis principales prioridades. 
+                <br>Estoy dedicado a mantenerme actualizado con las últimas tecnologías para ofrecer soluciones que destaquen en el mundo digital.<br>
+                
+            </p>
+                   
+        </div>
+
+        <!-- Competencias -->
+        <div class="b-competencias" >
+            <h2>Competencias</h2>
+            <div class="b-programas_iconos">
+                <img src="../Imagenes/java_274432.png" alt="Java icon">
+                <img src="../Imagenes/Cs.png" alt="C# icon">
+                <img src="../Imagenes/python-file_5815753.png" alt="Python languaje icon">
+                <img src="../Imagenes/php_12658497.png" alt="Php icon">
+                <img src="../Imagenes/database_4248349.png" alt="SQL icon">
+                <img src="../Imagenes/html.png" alt="Html icon">
+                <img src="../Imagenes/css_1961677.png" alt="Css icon">                
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Servicios -->
+    <div class="b-servicios" id="Servicios"> 
+        <h2>Servicios</h2>
+        <div class="b-oferta">
+            <!-- Desarrollo de aplicaciones -->
+            <div>
+                <h3>Desarrollo de apliacciones</h3>
+                <p>Desarrollo de aplicaciones personalizadas para satisfacer tus necesidades, 
+                    desde soluciones empresariales hasta aplicaciones móviles innovadoras. 
+                    Transformo ideas en software funcional y eficiente.
+                </p>
+            </div>
+            <!-- Diseño de paginas web -->
+            <div>
+                <h3>Diseño de paginas web</h3>
+                <p>Diseño y creación de páginas web atractivas y funcionales. 
+                    Desde la conceptualización hasta la implementación, 
+                    trabajo para destacar la identidad de tu marca y ofrecer una experiencia de usuario optima.
+                </p>
+            </div>
+            <!-- Consultoria -->
+            <div>
+                <h3>Consultoria</h3>
+                <p>Servicios de consultoría especializados para guiar 
+                    tu empresa en la toma de decisiones estratégicas. 
+                    Ofrezco asesoramiento experto en tecnología y procesos 
+                    para impulsar el crecimiento y la eficiencia.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Galeria -->
+    <div class="b-galeria" id="Galeria">
+        <h2>Galeria</h2>
+        <div>        
+            <a href="https://github.com/CESARJD/portfolio/blob/21d0af9453d69e352cc21908fa8f1e28506c7b21/prueba1">
+                <img src="../Imagenes/im1.jpg" alt=""></a>
+            <a href="https://github.com/CESARJD/portfolio/blob/21d0af9453d69e352cc21908fa8f1e28506c7b21/prueba1">
+                <img src="../Imagenes/im2.jpg" alt=""></a>
+            <a href="https://github.com/CESARJD/portfolio/blob/21d0af9453d69e352cc21908fa8f1e28506c7b21/prueba1">
+                    <img src="../Imagenes/im3.jpg" alt=""></a>
+            <a href="https://github.com/CESARJD/portfolio/blob/21d0af9453d69e352cc21908fa8f1e28506c7b21/prueba1">
+                    <img src="../Imagenes/im4.jpg" alt=""></a>                    
+            <a href="https://github.com/CESARJD/portfolio/blob/21d0af9453d69e352cc21908fa8f1e28506c7b21/prueba1">
+                <img src="../Imagenes/im5.jpg" alt=""></a>
+            
+        </div>
+
+    </div>
+    <!-- Contacto -->
+    <div class="b-contacto" id="Contacto">
+        <h2>Contacto</h2>
+        <div class="b-contacto_secciones">
+            <div class="b-contacto_secciones__img">
+                <img class="b-contacto_secciones__img--width" src="../Imagenes/5861840.png" alt="Imagen de un ordanador con aplicaciones y documentos alrededor">
+            </div>
+            <!-- El formulario no tiene action ni method porque no tendian funcionalidad real -->
+            <form class="b-formulario">
+                <fieldset class="b-fieldset1">
+                    <!-- Nombre es un campo obligatorio -->
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required>
+    
+                    <!-- Correo electronico es un campo obligatorio -->
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <!-- Telefono no es ogligatorio,contiene una limitacion de caracteres y de rango -->
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9,14}">
+
+                    <!-- Un desplegable para indicar que servicio es el que quiere solicitar en el contacto -->
+                    <label for="servicio">Servicio</label>
+                    <select class="b-servicio_boton" id="servicio" name="servicio" required>
+                        <option value="" disabled selected>Selecciona un servicio</option>
+                        <option value="Desarrollo de aplicaciones">Desarrollo de aplicaciones</option>
+                        <option value="Diseño de páginas web">Diseño de páginas web</option>
+                        <option value="Consultoría">Consultoría</option>                                
+                    </select>
+
+                    <!-- Posibilidad de indicar si se quiere solicitar una cita, segun el medio elegido -->
+                    <div>
+                        <label>Solicitar cita</label>
+                        <input type="radio" id="sinCita" name="preferencia" value="Sin Cita" checked>
+                        <label for="sinCita">Sin Cita</label>
+    
+                        <input type="radio" id="telefono" name="preferencia" value="Teléfono">
+                        <label for="telefono">Teléfono</label>
+                        
+                        <input type="radio" id="zoom" name="preferencia" value="Zoom">
+                        <label for="zoom">Zoom</label> 
+                    </div>
+
+                    <div class="b-enviar">
+                        <input class="b-enviar__boton"  type="submit" value="Enviar">
+                    </div>
+                </fieldset>    
+            </form>            
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
