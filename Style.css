@@ -86,13 +86,18 @@ La portada del portfolio */
     padding: 150px;
     width: 100%;
 }
+.b-linea_titulo{
+    border: 2px solid black;
+    width: 60%;
+    margin: 10px 0;
+}
 /* Seccion se contiene las secciones Sobre mi y Competencias*/
 .b-info{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%; 
     height: 738px;   
-    background-color: red;
+    /* background-color: red; */
 }
 /* Subseccion Sobre mi. Contiene una breve descripcion*/
 .b-sobre_mi{
@@ -141,7 +146,7 @@ La portada del portfolio */
     width: 100%;
     height: 630px;   
     padding-top: 115px;    
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0;
 }
 .b-oferta{
@@ -170,7 +175,7 @@ La portada del portfolio */
     width: 100%;
     height: 630px;   
     padding-top: 100px;    
-    background-color: rgb(132, 163, 163);
+    /* background-color: rgb(132, 163, 163); */
     margin: 0;
 }
 .b-galeria > div{
@@ -181,7 +186,7 @@ La portada del portfolio */
     width: 80%;
     margin-top: 35px;
     padding: 0px;
-    background-color: var(--color-medium_yellow);
+    /* background-color: var(--color-medium_yellow); */
     gap: 50px;
 }
 .b-galeria > div > a{
@@ -201,8 +206,8 @@ En esta seccion he intentado "forzar" el BEM para usarlo hasta los modificadores
     align-items: center;
     flex-direction: column;
     width: 100%; 
-    height: 725px;   
-    background-color: var(--color-medium_yellow);
+    height: 665px;   
+    /* background-color: var(--color-medium_yellow); */
     margin: 0px;
     padding-top: 100px;
 }
@@ -256,4 +261,32 @@ En esta seccion he intentado "forzar" el BEM para usarlo hasta los modificadores
     height: 35px;
     border: none;
     background-color: var(--color-medium_yellow);
+}
+/* Footer con daños de contacto y enlaces a github y linkedin */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: var(--color-medium_yellow);
+}
+.b-footer_div1{
+    display: flex;
+    margin-left: 50px;
+    gap: 30px;
+}
+.b-footer_div2{
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+    gap: 30px;
+}
+.b-footer_div2 a{
+    display: flex;
+    align-items: center;
+}
+.b-footer__img{
+    width: 45px;
+    height: 45px;
 }
